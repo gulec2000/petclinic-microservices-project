@@ -104,7 +104,7 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub Petclinic App Dev Server
-Output:
+Outputs:
   PetClinicDNSName:
     Description: Petclinic App Url
     Value: !GetAtt PetClinicServer.PublicDnsName
