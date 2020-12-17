@@ -103,7 +103,7 @@ Resources:
         Version: !GetAtt PetClinicLT.LatestVersionNumber
       Tags:
         - Key: Name
-          Value: !Sub Petclinic App Dev Server
+          Value: !Sub Petclinic App Dev Server ${AWS::StackName}
 Outputs:
   PetClinicDNSName:
     Description: Petclinic App Url
