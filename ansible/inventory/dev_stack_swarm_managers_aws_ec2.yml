@@ -9,7 +9,11 @@ hostnames:
   - "private-ip-address"
 compose:
 <<<<<<< HEAD
+<<<<<<< HEAD
   ansible_user: "'ec2-user'"
+=======
+  ansible_user: "'ec2-user'"
+>>>>>>> f35c98795b368f2519eafdfc4b5927169e5c247e
 =======
   ansible_user: "'ec2-user'"
 >>>>>>> f35c98795b368f2519eafdfc4b5927169e5c247e
