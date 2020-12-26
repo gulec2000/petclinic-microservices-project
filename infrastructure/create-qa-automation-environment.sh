@@ -31,4 +31,3 @@ ansible-playbook -i ./ansible/inventory/dev_stack_dynamic_inventory_aws_ec2.yml 
 aws cloudformation delete-stack --region ${AWS_REGION} --stack-name ${AWS_STACK_NAME}
 # Delete key pair
 aws ec2 delete-key-pair --region ${AWS_REGION} --key-name ${CFN_KEYPAIR}
-rm -rf ${CFN_KEYPAIR}
