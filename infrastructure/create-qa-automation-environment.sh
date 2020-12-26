@@ -30,6 +30,7 @@ ansible-playbook -i ./ansible/inventory/dev_stack_dynamic_inventory_aws_ec2.yml 
 # Tear down the Docker Swarm infrastructure
 aws cloudformation delete-stack --region ${AWS_REGION} --stack-name ${AWS_STACK_NAME}
 # Delete key pair
+<<<<<<< HEAD
 aws ec2 delete-key-pair --region ${AWS_REGION} --key-name ${CFN_KEYPAIR}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40,3 +41,6 @@ rm -rf ${CFN_KEYPAIR}
 =======
 rm -rf ${CFN_KEYPAIR}
 >>>>>>> f35c98795b368f2519eafdfc4b5927169e5c247e
+=======
+aws ec2 delete-key-pair --region ${AWS_REGION} --key-name ${CFN_KEYPAIR}
+>>>>>>> e50fa52178bd36250cb1f7ff09852bf20f35b92a

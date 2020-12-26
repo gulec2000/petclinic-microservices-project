@@ -7,6 +7,7 @@ filters:
   tag:swarm-role: manager
 hostnames:
   - "private-ip-address"
+<<<<<<< HEAD:ansible/inventory/dev_stack_swarm_managers_aws_ec2.yaml
 compose:
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17,3 +18,6 @@ compose:
 =======
   ansible_user: "'ec2-user'"
 >>>>>>> f35c98795b368f2519eafdfc4b5927169e5c247e
+=======
+compose:
+>>>>>>> e50fa52178bd36250cb1f7ff09852bf20f35b92a:ansible/inventory/dev_stack_swarm_managers_aws_ec2.yml
