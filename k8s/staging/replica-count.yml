@@ -13,7 +13,7 @@ metadata:
   name: api-gateway
 spec:
   rules:
-    - host: petclinic04.gulecserdar.de
+    - host: petclinic-staging.gulecserdar.de
       http:
         paths:
           - backend:
@@ -27,7 +27,7 @@ metadata:
   name: customers-service
 spec:
   rules:
-  - host: petclinic04.gulecserdar.de
+  - host: petclinic-staging.gulecserdar.de
     http:
       paths:
       - backend:
@@ -47,7 +47,7 @@ metadata:
   name: vets-service
 spec:
   rules:
-  - host: petclinic04.gulecserdar.de
+  - host: petclinic-staging.gulecserdar.de
     http:
       paths:
       - backend:
@@ -62,7 +62,7 @@ metadata:
   name: visits-service
 spec:
   rules:
-  - host: petclinic04.gulecserdar.de
+  - host: petclinic-staging.gulecserdar.de
     http:
       paths:
       - backend:
